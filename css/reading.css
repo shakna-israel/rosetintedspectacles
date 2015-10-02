@@ -11,7 +11,7 @@ p:focus {
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
-  font-size: 1.125mem;
+  font-size: 1.4em;
 }
 
 h1:focus {
@@ -20,7 +20,7 @@ h1:focus {
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 h2:focus {
@@ -29,7 +29,7 @@ h2:focus {
 
 h3 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
-  font-size: 0.85em;
+  font-size: 1em;
 }
 
 h3:focus {
@@ -38,9 +38,9 @@ h3:focus {
 
 small {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
-  font-size: 0.65em;
+  font-size: 0.8em;
 }
 
 small:focus {
-  font-size: 0.95em;
+  font-size: 1.2em;
 }
