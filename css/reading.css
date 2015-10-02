@@ -3,6 +3,10 @@
 p {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.75em;
+  -o-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 p:focus {
@@ -12,6 +16,10 @@ p:focus {
 h1 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.4em;
+  -o-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 h1:focus {
@@ -21,6 +29,10 @@ h1:focus {
 h2 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.2em;
+  -o-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 h2:focus {
@@ -30,6 +42,10 @@ h2:focus {
 h3 {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1em;
+  -o-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 h3:focus {
@@ -39,6 +55,10 @@ h3:focus {
 small {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.8em;
+  -o-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 small:focus {
