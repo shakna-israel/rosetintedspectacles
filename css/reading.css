@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+p {
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-size: 0.75em;
+}
+
+p:focus {
+  font-size:1.5em;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-size: 1.125mem;
+}
+
+h1:focus {
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-size: 0.9em;
+}
+
+h2:focus {
+  font-size: 1.85em;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-size: 0.85em;
+}
+
+h3:focus {
+  font-size: 1.75em;
+}
+
+small {
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-size: 0.65em;
+}
+
+small:focus {
+  font-size: 0.95em;
+}
