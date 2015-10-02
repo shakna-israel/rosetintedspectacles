@@ -1,5 +1,6 @@
 ---
 permalink: /test/
+layout: page
 ---
 
 <h1 tabindex="0">This is a title.</h1>

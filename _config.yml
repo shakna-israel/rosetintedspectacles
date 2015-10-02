@@ -1,0 +1,25 @@
+url: 'rosetintedspectacles'
+baseurl: '//shakna-israel.github.io'
+
+permalink: /:categories/:title/
+
+sass:
+    style: compressed
+    sass_dir: _assets/_sass
+    
+include: ["_pages","_assets"]
+
+timezone: Australia/Sydney
+
+encoding: utf-8
+
+highlighter: pygments
+markdown:    kramdown
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
