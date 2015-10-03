@@ -21,7 +21,5 @@ function checkKey(e) {
 window.onload = function main() {
   var ele = document.getElementById('readable').childNodes[1];
   setFocus(ele);
-  while (true) {
   document.onkeydown = checkKey;
-  }
 }
