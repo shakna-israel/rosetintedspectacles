@@ -19,7 +19,9 @@ footer {
     margin-right:auto;
     margin-top:5em;
   }
-  
+}
+
+@media (max-width:30em) {
   p:focus {
     text-align:left;
   }
@@ -33,11 +35,11 @@ footer {
   }
   
   h3:focus {
-    text-align:center;
+    text-align:left;
   }
   
   small:focus {
-    text-align:center;
+    text-align:left;
   }
 }
 
