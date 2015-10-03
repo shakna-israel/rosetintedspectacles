@@ -3,6 +3,10 @@
 <script src="{{ site.baseurl }}/{{ site.url }}/js/select_controls.js"></script>
 </head>
 
-<body id="readable">
+<body>
+<input type="button" value="Next Item" onclick="nextText();" />
+<input type="button" value="Last Item" onclick="lastText();" />
+<div id="readable">
 {{ content }}
+</div>
 </body>
