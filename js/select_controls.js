@@ -3,13 +3,11 @@ function setFocus(element){
 }
 
 function nextText(element){
-  setFocus(element.nextElementSibling);
-  return element.nextElementSibling;
+  setFocus(document.activeElement.nextElementSibling);
 }
 
 function lastText(element){
-  setFocus(element.previousElementSibling);
-  return element.previousElementSibling;
+  setFocus(document.activeElement.previousElementSibling);
 }
 
 window.onload = function() {
