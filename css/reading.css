@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
 }
 
 p {
-  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.75em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
@@ -20,51 +20,64 @@ p:focus {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.4em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-rendering: optimizeLegibility;
 }
 
 h1:focus {
   font-size: 2em;
+  text-decoration-style: solid;
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.2em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+  text-decoration: underline;
+  font-style:italic;
+  text-rendering: optimizeLegibility;
 }
 
 h2:focus {
   font-size: 1.85em;
+  font-style:unset;
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+  font-style:italic;
+  text-rendering: optimizeLegibility;
 }
 
 h3:focus {
   font-size: 1.75em;
+  font-style: unset;
+  text-decoration: underline;
 }
 
 small {
-  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.8em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+  text-rendering: optimizeLegibility;
 }
 
 small:focus {
