@@ -13,7 +13,15 @@ function lastText(){
   return document.activeElement;
 }
 
+function checkKey(e) {
+    var event = window.event ? window.event : e;
+    console.log(event.keyCode)
+}
+
 window.onload = function main() {
   var ele = document.getElementById('readable').childNodes[1];
   setFocus(ele);
+  while (true) {
+  document.onkeydown = checkKey;
+  }
 }
