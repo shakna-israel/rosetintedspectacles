@@ -2,6 +2,6 @@ function setFocus(element){
   element.focus();
 }
 
-var ele = document.getElementbyId('readable').children[0]
+var ele = document.getElementById('readable').childNodes[0]
 
 window.onload = setFocus(ele)
