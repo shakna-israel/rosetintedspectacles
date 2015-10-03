@@ -4,12 +4,12 @@ function setFocus(element){
 }
 
 function nextText(){
-  setFocus(document.activeElement.nextElementSibling);
+  setFocus(document.activeElement.nextSibling);
   return document.activeElement;
 }
 
 function lastText(){
-  setFocus(document.activeElement.previousElementSibling);
+  setFocus(document.activeElement.previousSibling);
   return document.activeElement;
 }
 
