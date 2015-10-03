@@ -2,7 +2,7 @@ function setFocus(element){
   element.focus();
 }
 
-function nextText({
+function nextText(){
   setFocus(document.activeElement.nextElementSibling);
 }
 
