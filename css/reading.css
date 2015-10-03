@@ -12,6 +12,10 @@ footer {
   width:100%;
 }
 
+#readable {
+  width:70%;
+}
+
 body {
   background: #000;
   color: #FFF;
