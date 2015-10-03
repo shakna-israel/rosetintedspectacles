@@ -12,8 +12,10 @@ footer {
   width:100%;
 }
 
-#readable {
-  width:70%;
+@media (min-width:30em) {
+  #readable {
+    width:70%;
+  }
 }
 
 body {
