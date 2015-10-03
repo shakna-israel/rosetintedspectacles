@@ -2,11 +2,11 @@ function setFocus(element){
   element.focus();
 }
 
-function nextText(element){
+function nextText({
   setFocus(document.activeElement.nextElementSibling);
 }
 
-function lastText(element){
+function lastText(){
   setFocus(document.activeElement.previousElementSibling);
 }
 
