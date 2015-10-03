@@ -13,9 +13,7 @@ function lastText(){
   return document.activeElement;
 }
 
-function main() {
+window.onload = function main() {
   var ele = document.getElementById('readable').childNodes[1];
   setFocus(ele);
 }
-
-window.onload = main()
