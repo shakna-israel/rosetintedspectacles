@@ -8,6 +8,11 @@
 body {
   background: #000;
   color: #FFF;
+  -moz-user-select: -moz-none;
+  -kthtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 p {
