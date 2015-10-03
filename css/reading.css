@@ -45,8 +45,7 @@ p:focus {
   font-size:1.5em;
   padding: 1em;
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  text-align:center;
 }
 
 h1 {
@@ -66,6 +65,7 @@ h1:focus {
   text-decoration-style: solid;
   padding: 1em;
   display: block;
+  text-align:center;
 }
 
 h2 {
@@ -85,6 +85,7 @@ h2:focus {
   font-style:unset;
   padding: 1em;
   display:block;
+  text-align:center;
 }
 
 h3 {
@@ -104,6 +105,7 @@ h3:focus {
   text-decoration: underline;
   padding: 1em;
   display:block;
+  text-align:center;
 }
 
 small {
@@ -120,4 +122,5 @@ small:focus {
   font-size: 1.8em;
   padding: 1em;
   display:block;
+  text-align:center;
 }
