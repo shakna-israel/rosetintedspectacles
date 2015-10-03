@@ -5,6 +5,13 @@
   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
 }
 
+footer {
+  position:fixed;
+  bottom:0;
+  text-align:center;
+  width:100%;
+}
+
 body {
   background: #000;
   color: #FFF;
