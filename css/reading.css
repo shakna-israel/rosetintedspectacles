@@ -45,6 +45,7 @@ p:focus {
   font-size:1.5em;
   padding: 1em;
   display: block;
+  text-align:center;
 }
 
 h1 {
