@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.75em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
@@ -20,7 +20,7 @@ p:focus {
 }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.4em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
@@ -33,7 +33,7 @@ h1:focus {
 }
 
 h2 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.2em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
@@ -46,7 +46,7 @@ h2:focus {
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
   font-size: 1em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
@@ -59,7 +59,7 @@ h3:focus {
 }
 
 small {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
+  font-family: 'Open Sans', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.8em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
