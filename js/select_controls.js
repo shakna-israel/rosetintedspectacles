@@ -16,6 +16,14 @@ function lastText(){
 function checkKey(e) {
     var event = window.event ? window.event : e;
     console.log(event.keyCode)
+    
+    if (e.keyCode == '39') {
+      nextText()
+    }
+    
+    if (e.keyCode == '37') {
+      lastText()
+    }
 }
 
 window.onload = function main() {
