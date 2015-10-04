@@ -19,48 +19,14 @@ footer {
     margin-right:auto;
     margin-top:5em;
   }
-  
-  p:focus {
-    text-align:center;
-  }
-  
-  h1:focus {
-    text-align:center;
-  }
-  
-  h2:focus {
-    text-align:center;
-  }
-  
-  h3:focus {
-    text-align:center;
-  }
-  
-  small:focus {
-    text-align:center;
-  }
-}
 
-@media (max-width:30em) {
   p:focus {
-    text-align:left;
+    display:block;
   }
-  
-  h1:focus {
-    text-align:left;
-  }
-  
-  h2:focus {
-    text-align:left;
-  }
-  
-  h3:focus {
-    text-align:left;
-  }
-  
+
   small:focus {
-    text-align:left;
-  }
+    display:block;
+  }  
 }
 
 body {
@@ -71,31 +37,25 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-p {
   font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.85em;
   -o-transition:all .2s ease-in-out;
   -moz-transition:all .2s ease-in-out;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+}
+
+p {
   display: inline;
 }
 
 p:focus {
   font-size:1.5em;
   padding: 1em;
-  display: block;
 }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.4em;
-  -o-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
   text-decoration: underline;
   text-decoration-style: double;
   text-rendering: optimizeLegibility;
@@ -105,16 +65,10 @@ h1:focus {
   font-size: 2em;
   text-decoration-style: solid;
   padding: 1em;
-  display: block;
 }
 
 h2 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1.2em;
-  -o-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
   text-decoration: underline;
   font-style:italic;
   text-rendering: optimizeLegibility;
@@ -124,16 +78,10 @@ h2:focus {
   font-size: 1.85em;
   font-style:unset;
   padding: 1em;
-  display:block;
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 1em;
-  -o-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
   font-style:italic;
   text-rendering: optimizeLegibility;
 }
@@ -143,21 +91,14 @@ h3:focus {
   font-style: unset;
   text-decoration: underline;
   padding: 1em;
-  display:block;
 }
 
 small {
-  font-family: 'Source Sans Pro', sans-serif, 'Verdana', 'Calibri';
   font-size: 0.8em;
-  -o-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
   text-rendering: optimizeLegibility;
 }
 
 small:focus {
   font-size: 1.8em;
   padding: 1em;
-  display:block;
 }
